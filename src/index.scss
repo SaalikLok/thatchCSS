@@ -1,0 +1,66 @@
+@use 'tokens';
+
+.thatch-container { 
+  margin: 3% auto;
+  max-width: tokens.$regular-width;
+  
+  &--narrow {
+    margin: 3% auto;
+    max-width: tokens.$narrow-width;
+  }
+
+  &--full {
+    width: 100vw;
+  }
+}
+
+.thatch-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  @media (max-width: tokens.$mobile-breakpoint) {
+    display: block;
+  }
+}
+
+.thatch-grid {
+  &--2x {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    gap: 1rem;
+  }
+
+  &--3x {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    gap: 1rem;
+  }
+
+  &--4x {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    gap: 1rem;
+  }
+
+  &--auto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+// For internal debugging
+
+// div, section {
+//   border: 1px solid black;
+// }
+
+// .dumb-box {
+//   width: 100px;
+//   height: 100px;
+//   background-color:burlywood;
+// }
