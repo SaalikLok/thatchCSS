@@ -1,11 +1,16 @@
 @use 'tokens';
 
 .thatch-container { 
-  margin: 3% auto;
+  margin: tokens.$default-margin;
   max-width: tokens.$regular-width;
   
+  &--super-narrow {
+    margin: tokens.$default-margin;
+    max-width: tokens.$super-narrow-width;
+  }
+
   &--narrow {
-    margin: 3% auto;
+    margin: tokens.$default-margin;
     max-width: tokens.$narrow-width;
   }
 
