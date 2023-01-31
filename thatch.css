@@ -2,6 +2,10 @@
   margin: 3% auto;
   max-width: 1050px;
 }
+.thatch-container--super-narrow {
+  margin: 3% auto;
+  max-width: 450px;
+}
 .thatch-container--narrow {
   margin: 3% auto;
   max-width: 750px;
@@ -15,7 +19,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   .thatch-split {
     display: block;
   }
