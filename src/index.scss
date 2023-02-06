@@ -2,15 +2,18 @@
 
 .thatch-container { 
   margin: tokens.$default-margin;
+  padding: tokens.$default-padding;
   max-width: tokens.$regular-width;
   
   &--super-narrow {
     margin: tokens.$default-margin;
+    padding: tokens.$default-padding;
     max-width: tokens.$super-narrow-width;
   }
 
   &--narrow {
     margin: tokens.$default-margin;
+    padding: tokens.$default-padding;
     max-width: tokens.$narrow-width;
   }
 

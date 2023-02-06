@@ -1,13 +1,16 @@
 .thatch-container {
   margin: 3% auto;
+  padding: 0% 3%;
   max-width: 1050px;
 }
 .thatch-container--super-narrow {
   margin: 3% auto;
+  padding: 0% 3%;
   max-width: 450px;
 }
 .thatch-container--narrow {
   margin: 3% auto;
+  padding: 0% 3%;
   max-width: 750px;
 }
 .thatch-container--full {
